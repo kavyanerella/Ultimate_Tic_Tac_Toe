@@ -1,0 +1,7 @@
+Ultimate Tic Tac Toe 
+
+Rules for the game can be found at this site:
+http://mathwithbaddrawings.com/2013/06/16/ultimate-tic-tac-toe/
+
+Implementation details : 
+A tree of all the next possible moves in the game is built dynamically upto a depth of 9. A heuristic function is written to evaluate the value of a state of the board. This value is propagated upwards and so the bot chooses the most optimal move.
